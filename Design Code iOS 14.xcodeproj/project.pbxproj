@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4936197A288A105600FFA82F /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49361979288A105600FFA82F /* Sidebar.swift */; };
+		4936197B288A105600FFA82F /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49361979288A105600FFA82F /* Sidebar.swift */; };
 		49C86CD22889166D009248BC /* Design_Code_iOS_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */; };
 		49C86CD32889166D009248BC /* Design_Code_iOS_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */; };
 		49C86CD42889166D009248BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC32889166C009248BC /* ContentView.swift */; };
@@ -20,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49361979288A105600FFA82F /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_Code_iOS_14App.swift; sourceTree = "<group>"; };
 		49C86CC32889166C009248BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49C86CC42889166D009248BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 				49C86CC42889166D009248BC /* Assets.xcassets */,
 				49C86CE028891CF3009248BC /* CourseRow.swift */,
 				49C86CE328891EF2009248BC /* CoursesView.swift */,
+				49361979288A105600FFA82F /* Sidebar.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -184,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4936197A288A105600FFA82F /* Sidebar.swift in Sources */,
 				49C86CD42889166D009248BC /* ContentView.swift in Sources */,
 				49C86CE128891CF3009248BC /* CourseRow.swift in Sources */,
 				49C86CD22889166D009248BC /* Design_Code_iOS_14App.swift in Sources */,
@@ -195,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4936197B288A105600FFA82F /* Sidebar.swift in Sources */,
 				49C86CD52889166D009248BC /* ContentView.swift in Sources */,
 				49C86CE228891CF3009248BC /* CourseRow.swift in Sources */,
 				49C86CD32889166D009248BC /* Design_Code_iOS_14App.swift in Sources */,

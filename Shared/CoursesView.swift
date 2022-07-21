@@ -13,6 +13,8 @@ struct CoursesView: View {
             CourseRow()
         }
         .listStyle(.insetGrouped)
+        .navigationBarTitle("Courses")
+        
     }
 }
 
