@@ -13,6 +13,10 @@
 		49C86CD52889166D009248BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC32889166C009248BC /* ContentView.swift */; };
 		49C86CD62889166D009248BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C86CC42889166D009248BC /* Assets.xcassets */; };
 		49C86CD72889166D009248BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C86CC42889166D009248BC /* Assets.xcassets */; };
+		49C86CE128891CF3009248BC /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CE028891CF3009248BC /* CourseRow.swift */; };
+		49C86CE228891CF3009248BC /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CE028891CF3009248BC /* CourseRow.swift */; };
+		49C86CE428891EF2009248BC /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CE328891EF2009248BC /* CoursesView.swift */; };
+		49C86CE528891EF2009248BC /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CE328891EF2009248BC /* CoursesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		49C86CC92889166D009248BC /* Design Code iOS 14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Code iOS 14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C86CCF2889166D009248BC /* Design Code iOS 14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Code iOS 14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C86CD12889166D009248BC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		49C86CE028891CF3009248BC /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
+		49C86CE328891EF2009248BC /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,8 @@
 				49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */,
 				49C86CC32889166C009248BC /* ContentView.swift */,
 				49C86CC42889166D009248BC /* Assets.xcassets */,
+				49C86CE028891CF3009248BC /* CourseRow.swift */,
+				49C86CE328891EF2009248BC /* CoursesView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -177,7 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C86CD42889166D009248BC /* ContentView.swift in Sources */,
+				49C86CE128891CF3009248BC /* CourseRow.swift in Sources */,
 				49C86CD22889166D009248BC /* Design_Code_iOS_14App.swift in Sources */,
+				49C86CE428891EF2009248BC /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C86CD52889166D009248BC /* ContentView.swift in Sources */,
+				49C86CE228891CF3009248BC /* CourseRow.swift in Sources */,
 				49C86CD32889166D009248BC /* Design_Code_iOS_14App.swift in Sources */,
+				49C86CE528891EF2009248BC /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
