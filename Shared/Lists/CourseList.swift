@@ -25,6 +25,7 @@ struct CourseList: View {
         }
         .navigationTitle("Courses")
     }
+}
 
 struct CourseList_Previews: PreviewProvider {
     static var previews: some View {
