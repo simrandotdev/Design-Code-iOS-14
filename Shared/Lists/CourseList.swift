@@ -1,22 +1,22 @@
 //
-//  CoursesView.swift
+//  CourseList.swift
 //  Design Code iOS 14
 //
-//  Created by Simran Preet Narang on 2022-07-20.
+//  Created by Simran Preet Narang on 2022-07-22.
 //
 
 import SwiftUI
 
-struct CoursesView: View {
+struct CourseList: View {
     var body: some View {
-       
-        #if os(iOS)
+        
+#if os(iOS)
         content
             .listStyle(.insetGrouped)
-        #else
+#else
         content
             .frame(minWidth: 800, minHeight: 600)
-        #endif
+#endif
     }
     
     var content: some View {
@@ -25,10 +25,9 @@ struct CoursesView: View {
         }
         .navigationTitle("Courses")
     }
-}
 
-struct CoursesView_Previews: PreviewProvider {
+struct CourseList_Previews: PreviewProvider {
     static var previews: some View {
-        CoursesView()
+        CourseList()
     }
 }

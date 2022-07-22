@@ -11,7 +11,7 @@ import SwiftUI
 struct Design_Code_iOS_14App: App {
     var body: some Scene {
         WindowGroup {
-            Sidebar()
+            ContentView()
         }
     }
 }
