@@ -15,6 +15,8 @@
 		49361984288AE38400FFA82F /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49361982288AE38400FFA82F /* CourseList.swift */; };
 		493F36E9288DC9C3001744BC /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493F36E8288DC9C3001744BC /* Course.swift */; };
 		493F36EA288DC9C3001744BC /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493F36E8288DC9C3001744BC /* Course.swift */; };
+		49486589288E553C0076065D /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486588288E553C0076065D /* CloseButton.swift */; };
+		4948658A288E553C0076065D /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486588288E553C0076065D /* CloseButton.swift */; };
 		49C86CD22889166D009248BC /* Design_Code_iOS_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */; };
 		49C86CD32889166D009248BC /* Design_Code_iOS_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */; };
 		49C86CD42889166D009248BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC32889166C009248BC /* ContentView.swift */; };
@@ -32,6 +34,7 @@
 		4936197C288AE24200FFA82F /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
 		49361982288AE38400FFA82F /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		493F36E8288DC9C3001744BC /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		49486588288E553C0076065D /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_Code_iOS_14App.swift; sourceTree = "<group>"; };
 		49C86CC32889166C009248BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49C86CC42889166D009248BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,6 +124,7 @@
 				49361981288AE33300FFA82F /* Screens */,
 				49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */,
 				49C86CC42889166D009248BC /* Assets.xcassets */,
+				49486588288E553C0076065D /* CloseButton.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -243,6 +247,7 @@
 				493F36E9288DC9C3001744BC /* Course.swift in Sources */,
 				4936197A288A105600FFA82F /* Sidebar.swift in Sources */,
 				4936197D288AE24200FFA82F /* CourseItem.swift in Sources */,
+				49486589288E553C0076065D /* CloseButton.swift in Sources */,
 				49C86CD42889166D009248BC /* ContentView.swift in Sources */,
 				49C86CE128891CF3009248BC /* CourseRow.swift in Sources */,
 				49C86CD22889166D009248BC /* Design_Code_iOS_14App.swift in Sources */,
@@ -258,6 +263,7 @@
 				493F36EA288DC9C3001744BC /* Course.swift in Sources */,
 				4936197B288A105600FFA82F /* Sidebar.swift in Sources */,
 				4936197E288AE24200FFA82F /* CourseItem.swift in Sources */,
+				4948658A288E553C0076065D /* CloseButton.swift in Sources */,
 				49C86CD52889166D009248BC /* ContentView.swift in Sources */,
 				49C86CE228891CF3009248BC /* CourseRow.swift in Sources */,
 				49C86CD32889166D009248BC /* Design_Code_iOS_14App.swift in Sources */,
