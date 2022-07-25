@@ -35,6 +35,7 @@
 		494865A2288E58B70076065D /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486594288E58B60076065D /* Livestream.swift */; };
 		499753D7288ED61700FAD592 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499753D6288ED61700FAD592 /* VisualEffectBlur.swift */; };
 		499753D9288ED61E00FAD592 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499753D8288ED61E00FAD592 /* VisualEffectBlur.swift */; };
+		499753DC288EDB9C00FAD592 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499753DA288EDB8900FAD592 /* TabBar.swift */; };
 		49C86CD22889166D009248BC /* Design_Code_iOS_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */; };
 		49C86CD32889166D009248BC /* Design_Code_iOS_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */; };
 		49C86CD42889166D009248BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC32889166C009248BC /* ContentView.swift */; };
@@ -63,6 +64,7 @@
 		49486594288E58B60076065D /* Livestream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Livestream.swift; sourceTree = "<group>"; };
 		499753D6288ED61700FAD592 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		499753D8288ED61E00FAD592 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		499753DA288EDB8900FAD592 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_Code_iOS_14App.swift; sourceTree = "<group>"; };
 		49C86CC32889166C009248BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49C86CC42889166D009248BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		4936197F288AE2F600FFA82F /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				499753DA288EDB8900FAD592 /* TabBar.swift */,
 				49C86CC32889166C009248BC /* ContentView.swift */,
 				49361979288A105600FFA82F /* Sidebar.swift */,
 			);
@@ -292,6 +295,7 @@
 			files = (
 				4948658C288E57960076065D /* CourseDetailView.swift in Sources */,
 				49486597288E58B60076065D /* Tutorial.swift in Sources */,
+				499753DC288EDB9C00FAD592 /* TabBar.swift in Sources */,
 				49486595288E58B60076065D /* TutorialSection.swift in Sources */,
 				493F36E9288DC9C3001744BC /* Course.swift in Sources */,
 				4936197A288A105600FFA82F /* Sidebar.swift in Sources */,

@@ -35,33 +35,57 @@ struct CoursesView: View {
     @ViewBuilder
     var content: some View {
         ScrollView {
-            LazyVGrid(
-                columns: [
-                    GridItem(.adaptive(minimum: 160), spacing: 16)
-                ],
-                spacing: 16) {
-                    ForEach(courses) { item in
-                        VStack {
-                            CourseItem(course: item)
-                                .matchedGeometryEffect(id: item.id, in: namespace, isSource: !show)
-                                .frame(height: 200)
-                                .onTapGesture {
-                                    withAnimation(.easeInOut(duration: 0.5)) {
-                                        show.toggle()
-                                        selectedItem = item
-                                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                                            isDisabled = true
+            
+            VStack {
+                Text("Courses")
+                    .font(.largeTitle)
+                    .bold()
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading, 16)
+                    .padding(.top, 54)
+                
+                LazyVGrid(
+                    columns: [
+                        GridItem(.adaptive(minimum: 160), spacing: 16)
+                    ],
+                    spacing: 16) {
+                        ForEach(courses) { item in
+                            VStack {
+                                CourseItem(course: item)
+                                    .matchedGeometryEffect(id: item.id, in: namespace, isSource: !show)
+                                    .frame(height: 200)
+                                    .onTapGesture {
+                                        withAnimation(.easeInOut(duration: 0.5)) {
+                                            show.toggle()
+                                            selectedItem = item
+                                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                                                isDisabled = true
+                                            }
+                                            
                                         }
-                                        
                                     }
-                                }
-                                .disabled(isDisabled)
+                                    .disabled(isDisabled)
+                            }
+                            .matchedGeometryEffect(id: "container\(item.id)", in: namespace, isSource: !show)
                         }
-                        .matchedGeometryEffect(id: "container\(item.id)", in: namespace, isSource: !show)
+                    }
+                    .padding(16)
+                    .frame(maxWidth: .infinity)
+                
+                Text("Latest sections")
+                    .fontWeight(.semibold)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding()
+                
+                LazyVGrid(columns: [GridItem(.adaptive(minimum: 240))]) {
+                    ForEach(courseSections) { item in
+                        CourseRow(item: item)
                     }
                 }
-                .padding(16)
-                .frame(maxWidth: .infinity)
+                .padding()
+            }
+            
+            
         }
         .zIndex(1)
     }
