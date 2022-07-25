@@ -33,6 +33,8 @@
 		494865A0288E58B70076065D /* GradientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486593288E58B60076065D /* GradientModel.swift */; };
 		494865A1288E58B70076065D /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486594288E58B60076065D /* Livestream.swift */; };
 		494865A2288E58B70076065D /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486594288E58B60076065D /* Livestream.swift */; };
+		499753D7288ED61700FAD592 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499753D6288ED61700FAD592 /* VisualEffectBlur.swift */; };
+		499753D9288ED61E00FAD592 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499753D8288ED61E00FAD592 /* VisualEffectBlur.swift */; };
 		49C86CD22889166D009248BC /* Design_Code_iOS_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */; };
 		49C86CD32889166D009248BC /* Design_Code_iOS_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */; };
 		49C86CD42889166D009248BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC32889166C009248BC /* ContentView.swift */; };
@@ -59,6 +61,8 @@
 		49486592288E58B60076065D /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		49486593288E58B60076065D /* GradientModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientModel.swift; sourceTree = "<group>"; };
 		49486594288E58B60076065D /* Livestream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Livestream.swift; sourceTree = "<group>"; };
+		499753D6288ED61700FAD592 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		499753D8288ED61E00FAD592 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_Code_iOS_14App.swift; sourceTree = "<group>"; };
 		49C86CC32889166C009248BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49C86CC42889166D009248BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -136,9 +140,18 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		499753D5288ED60200FAD592 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				499753D6288ED61700FAD592 /* VisualEffectBlur.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		49C86CBC2889166B009248BC = {
 			isa = PBXGroup;
 			children = (
+				499753D5288ED60200FAD592 /* iOS */,
 				49C86CC12889166C009248BC /* Shared */,
 				49C86CD02889166D009248BC /* macOS */,
 				49C86CCA2889166D009248BC /* Products */,
@@ -173,6 +186,7 @@
 		49C86CD02889166D009248BC /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				499753D8288ED61E00FAD592 /* VisualEffectBlur.swift */,
 				49C86CD12889166D009248BC /* macOS.entitlements */,
 			);
 			path = macOS;
@@ -291,6 +305,7 @@
 				49C86CD22889166D009248BC /* Design_Code_iOS_14App.swift in Sources */,
 				49C86CE428891EF2009248BC /* CoursesView.swift in Sources */,
 				4948659F288E58B70076065D /* GradientModel.swift in Sources */,
+				499753D7288ED61700FAD592 /* VisualEffectBlur.swift in Sources */,
 				4948659B288E58B70076065D /* CourseSection.swift in Sources */,
 				49361983288AE38400FFA82F /* CourseList.swift in Sources */,
 			);
@@ -315,6 +330,7 @@
 				49C86CD32889166D009248BC /* Design_Code_iOS_14App.swift in Sources */,
 				49C86CE528891EF2009248BC /* CoursesView.swift in Sources */,
 				494865A0288E58B70076065D /* GradientModel.swift in Sources */,
+				499753D9288ED61E00FAD592 /* VisualEffectBlur.swift in Sources */,
 				4948659C288E58B70076065D /* CourseSection.swift in Sources */,
 				49361984288AE38400FFA82F /* CourseList.swift in Sources */,
 			);

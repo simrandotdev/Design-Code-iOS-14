@@ -12,11 +12,26 @@ struct CourseDetailView: View {
     var course: Course = courses[0]
     var namespace: Namespace.ID
     
+#if os(iOS)
+    var cornerRadious: CGFloat = 12
+#else
+    var cornerRadious: CGFloat = 0
+#endif
     
     var body: some View {
+        
+        #if os(iOS)
+        content
+            .edgesIgnoringSafeArea(.all)
+        #else
+        content
+        #endif
+    }
+    
+    var content: some View {
         VStack {
             ScrollView {
-                CourseItem(course: course)
+                CourseItem(course: course, cornerRadious: 0)
                     .matchedGeometryEffect(id: course.id, in: namespace)
                     .frame(height: 300)
                 
@@ -30,9 +45,8 @@ struct CourseDetailView: View {
             }
         }
         .background(Color("Background 1"))
-        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+        .clipShape(RoundedRectangle(cornerRadius: cornerRadious, style: .continuous))
         .matchedGeometryEffect(id: "container\(course.id)", in: namespace)
-        .edgesIgnoringSafeArea(.all)
     }
 }
 
