@@ -17,6 +17,22 @@
 		493F36EA288DC9C3001744BC /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493F36E8288DC9C3001744BC /* Course.swift */; };
 		49486589288E553C0076065D /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486588288E553C0076065D /* CloseButton.swift */; };
 		4948658A288E553C0076065D /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486588288E553C0076065D /* CloseButton.swift */; };
+		4948658C288E57960076065D /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4948658B288E57960076065D /* CourseDetailView.swift */; };
+		4948658D288E57960076065D /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4948658B288E57960076065D /* CourseDetailView.swift */; };
+		49486595288E58B60076065D /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4948658E288E58B60076065D /* TutorialSection.swift */; };
+		49486596288E58B60076065D /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4948658E288E58B60076065D /* TutorialSection.swift */; };
+		49486597288E58B60076065D /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4948658F288E58B60076065D /* Tutorial.swift */; };
+		49486598288E58B60076065D /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4948658F288E58B60076065D /* Tutorial.swift */; };
+		49486599288E58B60076065D /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486590288E58B60076065D /* LivestreamSection.swift */; };
+		4948659A288E58B60076065D /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486590288E58B60076065D /* LivestreamSection.swift */; };
+		4948659B288E58B70076065D /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486591288E58B60076065D /* CourseSection.swift */; };
+		4948659C288E58B70076065D /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486591288E58B60076065D /* CourseSection.swift */; };
+		4948659D288E58B70076065D /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486592288E58B60076065D /* Download.swift */; };
+		4948659E288E58B70076065D /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486592288E58B60076065D /* Download.swift */; };
+		4948659F288E58B70076065D /* GradientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486593288E58B60076065D /* GradientModel.swift */; };
+		494865A0288E58B70076065D /* GradientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486593288E58B60076065D /* GradientModel.swift */; };
+		494865A1288E58B70076065D /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486594288E58B60076065D /* Livestream.swift */; };
+		494865A2288E58B70076065D /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49486594288E58B60076065D /* Livestream.swift */; };
 		49C86CD22889166D009248BC /* Design_Code_iOS_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */; };
 		49C86CD32889166D009248BC /* Design_Code_iOS_14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */; };
 		49C86CD42889166D009248BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C86CC32889166C009248BC /* ContentView.swift */; };
@@ -35,6 +51,14 @@
 		49361982288AE38400FFA82F /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		493F36E8288DC9C3001744BC /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		49486588288E553C0076065D /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		4948658B288E57960076065D /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		4948658E288E58B60076065D /* TutorialSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialSection.swift; sourceTree = "<group>"; };
+		4948658F288E58B60076065D /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		49486590288E58B60076065D /* LivestreamSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivestreamSection.swift; sourceTree = "<group>"; };
+		49486591288E58B60076065D /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		49486592288E58B60076065D /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		49486593288E58B60076065D /* GradientModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientModel.swift; sourceTree = "<group>"; };
+		49486594288E58B60076065D /* Livestream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Livestream.swift; sourceTree = "<group>"; };
 		49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_Code_iOS_14App.swift; sourceTree = "<group>"; };
 		49C86CC32889166C009248BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49C86CC42889166D009248BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +124,13 @@
 		493F36E7288DC9B6001744BC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				49486591288E58B60076065D /* CourseSection.swift */,
+				49486592288E58B60076065D /* Download.swift */,
+				49486593288E58B60076065D /* GradientModel.swift */,
+				49486594288E58B60076065D /* Livestream.swift */,
+				49486590288E58B60076065D /* LivestreamSection.swift */,
+				4948658F288E58B60076065D /* Tutorial.swift */,
+				4948658E288E58B60076065D /* TutorialSection.swift */,
 				493F36E8288DC9C3001744BC /* Course.swift */,
 			);
 			path = Models;
@@ -125,6 +156,7 @@
 				49C86CC22889166C009248BC /* Design_Code_iOS_14App.swift */,
 				49C86CC42889166D009248BC /* Assets.xcassets */,
 				49486588288E553C0076065D /* CloseButton.swift */,
+				4948658B288E57960076065D /* CourseDetailView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -244,14 +276,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4948658C288E57960076065D /* CourseDetailView.swift in Sources */,
+				49486597288E58B60076065D /* Tutorial.swift in Sources */,
+				49486595288E58B60076065D /* TutorialSection.swift in Sources */,
 				493F36E9288DC9C3001744BC /* Course.swift in Sources */,
 				4936197A288A105600FFA82F /* Sidebar.swift in Sources */,
 				4936197D288AE24200FFA82F /* CourseItem.swift in Sources */,
+				49486599288E58B60076065D /* LivestreamSection.swift in Sources */,
 				49486589288E553C0076065D /* CloseButton.swift in Sources */,
 				49C86CD42889166D009248BC /* ContentView.swift in Sources */,
+				4948659D288E58B70076065D /* Download.swift in Sources */,
+				494865A1288E58B70076065D /* Livestream.swift in Sources */,
 				49C86CE128891CF3009248BC /* CourseRow.swift in Sources */,
 				49C86CD22889166D009248BC /* Design_Code_iOS_14App.swift in Sources */,
 				49C86CE428891EF2009248BC /* CoursesView.swift in Sources */,
+				4948659F288E58B70076065D /* GradientModel.swift in Sources */,
+				4948659B288E58B70076065D /* CourseSection.swift in Sources */,
 				49361983288AE38400FFA82F /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +300,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4948658D288E57960076065D /* CourseDetailView.swift in Sources */,
+				49486598288E58B60076065D /* Tutorial.swift in Sources */,
+				49486596288E58B60076065D /* TutorialSection.swift in Sources */,
 				493F36EA288DC9C3001744BC /* Course.swift in Sources */,
 				4936197B288A105600FFA82F /* Sidebar.swift in Sources */,
 				4936197E288AE24200FFA82F /* CourseItem.swift in Sources */,
+				4948659A288E58B60076065D /* LivestreamSection.swift in Sources */,
 				4948658A288E553C0076065D /* CloseButton.swift in Sources */,
 				49C86CD52889166D009248BC /* ContentView.swift in Sources */,
+				4948659E288E58B70076065D /* Download.swift in Sources */,
+				494865A2288E58B70076065D /* Livestream.swift in Sources */,
 				49C86CE228891CF3009248BC /* CourseRow.swift in Sources */,
 				49C86CD32889166D009248BC /* Design_Code_iOS_14App.swift in Sources */,
 				49C86CE528891EF2009248BC /* CoursesView.swift in Sources */,
+				494865A0288E58B70076065D /* GradientModel.swift in Sources */,
+				4948659C288E58B70076065D /* CourseSection.swift in Sources */,
 				49361984288AE38400FFA82F /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
